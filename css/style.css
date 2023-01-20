@@ -1363,14 +1363,14 @@ button,
 
 .main-advantage__about-us-description--closed {
   height: auto;
-  -webkit-animation: moreOpenAnimation 1s forwards;
-  animation: moreOpenAnimation 1s forwards;
+  -webkit-animation: moreCloseAnimation 1s forwards;
+  animation: moreCloseAnimation 1s forwards;
 }
 
 .main-advantage__about-us-description--opened {
   height: 150;
-  -webkit-animation: moreCloseAnimation 1s forwards;
-  animation: moreCloseAnimation 1s forwards;
+  -webkit-animation: moreOpenAnimation 1s forwards;
+  animation: moreOpenAnimation 1s forwards;
 }
 
 @-webkit-keyframes moreOpenAnimation {
